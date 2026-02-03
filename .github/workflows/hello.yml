@@ -1,0 +1,9 @@
+name: 藤森さんの初自動化
+on: workflow_dispatch
+
+jobs:
+  greet:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 挨拶を実行
+        run: echo "藤森さん、こんにちは！これはGithubのサーバー上で動いています！"
